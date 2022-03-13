@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+.itemCenter {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.footer_title {
+  margin-left: -25px;
+  
+  color: #5c7acc;
+  min-height: 45px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(#002d91, #001441);
+}
+
+// .footer_body {
+//   background-color: $FooterBackground;
+// }
+
+.footer_logo {
+  max-width: 300px;
+}
+.footer_background {
+  width: 285px;
+  position: relative;
+  z-index: 0;
+  left: 150%;
+  // bottom: 4vh;
+}
+
+.footer_links_top {
+  ul {
+    text-align: end;
+    list-style: none;
+    li {
+      color: #ffd504;
+      font-size: 14px;
+    }
+  }
+}
+
+.footer_links_middle {
+  ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    li {
+      color: white;
+    }
+  }
+}
+
+.social-links {
+  ul {
+    li {
+      padding-left: 20px;
+    }
+  }
+}
+.nav-links {
+  ul {
+    li {
+      font-size: 10px;
+      padding-right: 5px;
+      padding-left: 5px;
+      border-right: 1px solid #3497fd;
+    }
+    li:last-child {
+      padding-right: 0;
+      border: none;
+    }
+  }
+}
+
+.footer_links_bottom {
+  text-align: end;
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      padding-right: 5px;
+      padding-left: 5px;
+      border-right: 1px solid #3497fd;
+      color: #ffd504;
+      font-size: 10px;
+      white-space: nowrap;
+    }
+    li:last-child {
+      border: none;
+      padding-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    &_body {
+      padding: 10px !important;
+    }
+    &_links_top {
+      ul {
+        text-align: center;
+      }
+    }
+    &_links_middle {
+      ul {
+        justify-content: center;
+      }
+    }
+    &_logo {
+      text-align: center;
+    }
+    .copyright_text {
+      text-align: center !important;
+    }
+    &_links_bottom {
+      ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+    &_copyright_text {
+      text-align: center !important;
+    }
+  }
+  ul {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_title{
+    display: none;
+  }
+}

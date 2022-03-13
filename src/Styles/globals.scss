@@ -1,0 +1,115 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@import"./header";
+@import "./third_menu";
+@import "./footer-new";
+@import "./payment";
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.secondMenu_links {
+  display: flex;
+  padding-right: 100px;
+}
+
+.auth-card {
+  border: none;
+  overflow: hidden;
+  background: white;
+  border-radius: 5px !important;
+  box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.06);
+}
+
+input.form-control-custom {
+  border-radius: 50px;
+  background: #00000029 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  border: none;
+  max-width: 265px;
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+// button.btn-custom {
+//   padding-left: 50px;
+//   padding-right: 50px;
+//   border-radius: 20px;
+//   background: #001441 0% 0% no-repeat padding-box;
+//   background: #001441 0% 0% no-repeat padding-box;
+//   box-shadow: inset 0px 3px 12px #ffffff99, 0px 3px 12px #00000080;
+// }
+.auth {
+  &-body-container {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color: #eff0f4;
+  }
+
+  &-heading {
+    font-size: 80px;
+    color: #99a1b3;
+    font-weight: bold;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  &-title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  &-subtitle {
+    font-size: 14px;
+    color: #001441;
+    font-weight: 600;
+    span {
+      color: #0059de;
+    }
+  }
+  &-wrapper {
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .justify-content-center;
+    @extend.flex-grow-1;
+    @extend .p-0;
+    @extend .ps-3;
+    &-img {
+      @extend .d-flex;
+      @extend .justify-content-end;
+    }
+    @media screen and (max-width: 600px) {
+      &-img {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .auth-body-container {
+    padding-top: 0;
+    padding-bottom: 5vh;
+  }
+}
+

@@ -1,0 +1,137 @@
+.mainpage {
+  height: auto;
+  background-color: #eff0f4;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #001441;
+}
+.globalOptions {
+  font-size: 14px;
+  border-radius: 3px;
+  border-style: inset;
+  margin-left: 160px;
+  margin-bottom: 61px;
+  width: 200px;
+  padding-bottom: 150px;
+  line-height: 50px;
+  padding-left: 20px;
+  background-image: linear-gradient(#002d91, #001441);
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.payment {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 400px;
+  margin-top: -560px;
+  font-weight: bolder;
+  color: #002064;
+  margin-bottom: 40px;
+}
+
+.payment_div {
+  
+  
+  display: flex;
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  line-height: 35px;
+  background: #ffffff;
+  border: none;
+  max-width: 900px;
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+*lebel {
+  padding-left: 20px;
+}
+
+.form-control2 {
+  border-radius: 5px;
+  background: #00000029 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  border: none;
+  max-width: 350px;
+  height: 60px;
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+.form-control3 {
+  border-radius: 5px;
+  background: #00000029 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  border: none;
+  width: 1000px;
+
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+.authorise {
+  background: #eff0f4 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  width: 400px;
+  padding-left: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+ 
+}
+
+.p2 {
+  font-size: 13px;
+  color: black;
+  margin-left: 30px;
+  margin-top: -42px;
+  font-weight: normal;
+}
+
+button.btn-custom {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+
+  background: #001441 0% 0% no-repeat padding-box;
+  background: #001441 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 12px #ffffff99, 0px 3px 12px #00000080;
+}
+
+input.input-form-control {
+  border-radius: 50px;
+  background: #00000029 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  border: none;
+  width: 350px;
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+
+.required:after {
+  content:" *";
+  color: red;
+}
+
+

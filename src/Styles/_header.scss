@@ -1,0 +1,37 @@
+
+
+.avatar_logo {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 40px;
+  margin-top: -5px;
+}
+
+.section {
+  display: flex;
+  margin-left: 1300px;
+  margin-top: -15px;
+  
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.home{
+  font-weight: bolder;
+  color: #002064;
+  margin-top: 10px;
+  
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 1500px) {
+  .section {
+    display: none !important;
+  }
+    .home{
+      display: none !important;
+    }
+  }
